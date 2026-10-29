@@ -1,0 +1,69 @@
+{
+  "assets": [
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Codex-generated bg for ScarletJesterClub"
+    },
+    {
+      "name": "button_rect",
+      "type": "button",
+      "prompt": "Codex-generated button for ScarletJesterClub"
+    },
+    {
+      "name": "button_round",
+      "type": "button",
+      "prompt": "Codex-generated button for ScarletJesterClub"
+    },
+    {
+      "name": "icon_home",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "icon_pause",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "logo",
+      "type": "icon",
+      "prompt": "Codex-generated icon for ScarletJesterClub"
+    },
+    {
+      "name": "reel_grid",
+      "type": "generic",
+      "prompt": "Codex-generated generic for ScarletJesterClub"
+    },
+    {
+      "name": "sprite_1",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "sprite_2",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "sprite_3",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "sprite_4",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "sprite_5",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for ScarletJesterClub"
+    },
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "prompt": "Codex-generated bg for ScarletJesterClub (game background reused for the menu)"
+    }
+  ]
+}

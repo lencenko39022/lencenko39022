@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_age_notice"
+    },
+    {
+      "tapFrac": [0.5, 0.5892],
+      "label": "I AM 18 OR OLDER",
+      "wait": 1.6,
+      "shot": "02_lobby"
+    },
+    {
+      "tapFrac": [0.61, 0.7386],
+      "label": "MISSIONS",
+      "wait": 1.5,
+      "shot": "03_mission_card"
+    },
+    {
+      "tapFrac": [0.83, 0.7386],
+      "label": "GALLERY",
+      "wait": 1.5,
+      "shot": "04_gallery"
+    },
+    {
+      "tapFrac": [0.5, 0.612],
+      "label": "PLAY",
+      "waitLoader": true,
+      "shot": "05_table_idle"
+    },
+    {
+      "tapFrac": [0.5, 0.8409],
+      "label": "SPIN",
+      "wait": 4.0,
+      "shot": "06_line_pays"
+    },
+    {
+      "tapFrac": [0.5, 0.8409],
+      "label": "SPIN",
+      "wait": 4.0,
+      "shot": "07_crown_line"
+    },
+    {
+      "tapFrac": [0.91, 0.0861],
+      "label": "PAUSE",
+      "wait": 1.8,
+      "shot": "08_intermission"
+    }
+  ]
+}

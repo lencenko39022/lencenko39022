@@ -1,0 +1,10 @@
+{
+  "attempts": 1,
+  "lastAt": 1793306332,
+  "kind": "limit",
+  "failureAt": 1793305567,
+  "firstAt": 1793306332,
+  "status": "PAUSED",
+  "wasted": 0,
+  "by": "relief"
+}
