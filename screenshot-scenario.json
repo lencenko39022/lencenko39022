@@ -1,0 +1,82 @@
+{
+  "app": "ScarletJesterClub",
+  "note": "tapFrac = normalised SCREEN coordinates (origin top-left), computed from the RectTransform chain the generated code builds over the 1242x2688 menu canvas. Unity y-anchors are bottom-origin, so tapFrac.y = 1 - anchorY. uba-screenshot.sh uninstalls before installing, so PlayerPrefs are always empty and the 18+ notice is always the first screen.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_age_notice"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.7526
+      ],
+      "label": "I AM 18 OR OLDER (AgeGateSection accept, body 0.5/0.22)",
+      "wait": 1.8,
+      "shot": "02_lobby"
+    },
+    {
+      "tapFrac": [
+        0.7262,
+        0.554
+      ],
+      "label": "DAILY GIFT tile (LobbyHomeSection grid, col 1 row 0)",
+      "wait": 1.8,
+      "shot": "03_daily_gift"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.7398
+      ],
+      "label": "CLAIM GIFT (DailyGiftSection, body 0.5/0.235)",
+      "wait": 2.2,
+      "shot": "04_gift_claimed"
+    },
+    {
+      "tapFrac": [
+        0.115,
+        0.048
+      ],
+      "label": "back to lobby (SectionView back, root 0.115/0.952)",
+      "wait": 1.6,
+      "shot": "05_lobby_richer"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.395
+      ],
+      "label": "PLAY (EMPTY_BASE_BUTTON Variant, anchor 0.5/0.605)",
+      "waitLoader": true,
+      "shot": "06_reels_idle"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.885
+      ],
+      "label": "SPIN (ReelsDirector, root 0.5/0.115) - showcase spin pays 28x, so the WIN pop opens",
+      "wait": 5.5,
+      "shot": "07_reels_win"
+    },
+    {
+      "tapFrac": [
+        0.73,
+        0.641
+      ],
+      "label": "SPIN AGAIN on the win popup (BASE_POP BOT_BTNS right group)",
+      "wait": 2.2,
+      "shot": "08_reels_after_win"
+    },
+    {
+      "tapFrac": [
+        0.905,
+        0.155
+      ],
+      "label": "pause (ReelsDirector, root 0.905/0.845)",
+      "wait": 1.8,
+      "shot": "09_pause_pop"
+    }
+  ]
+}
